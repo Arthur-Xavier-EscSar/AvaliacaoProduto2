@@ -9,6 +9,7 @@ public class MenuPrincipal {
     private TelaEmprestimos telaEmprestimos;
     private TelaReservas telaReservas;
     private TelaRelatorios telaRelatorios;
+    private Historico historico = new Historico();
 
     public MenuPrincipal() {
         // Os serviços e histórico serão compartilhados via uma classe Context (ou Main)
