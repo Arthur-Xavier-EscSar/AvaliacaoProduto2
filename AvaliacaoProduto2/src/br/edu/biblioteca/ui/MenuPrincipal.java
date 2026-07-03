@@ -40,7 +40,7 @@ public class MenuPrincipal {
                 case 3: telaEmprestimos.mostrar(sc); break;
                 case 4: telaReservas.mostrar(sc); break;
                 case 5: telaRelatorios.mostrar(sc); break;
-                case 6: Historico.desfazer(); break;
+                case 6: historico.desfazer(); break;
             }
         } while (opcao != 0);
     }
