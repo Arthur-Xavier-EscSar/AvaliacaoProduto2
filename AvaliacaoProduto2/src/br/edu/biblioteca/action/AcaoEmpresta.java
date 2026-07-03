@@ -8,16 +8,12 @@ import br.edu.biblioteca.service.UsuarioService;
 
 public class AcaoEmpresta implements Acao {
     private EmprestimoService emprestimoService;
-    private CatalogoService catalogoService;
-    private UsuarioService usuarioService;
     private Emprestimo emprestimo;
     private Exemplar exemplar;
 
     public AcaoEmpresta(EmprestimoService emprestimoService, CatalogoService catalogoService,
                         UsuarioService usuarioService, Emprestimo emprestimo, Exemplar exemplar) {
         this.emprestimoService = emprestimoService;
-        this.catalogoService = catalogoService;
-        this.usuarioService = usuarioService;
         this.emprestimo = emprestimo;
         this.exemplar = exemplar;
     }
