@@ -19,7 +19,7 @@ public  class Vetor<T> {
         elementos[size] = valor;
         size++;
     }
-
+    @SuppressWarnings("unchecked")
     public T get(int indice) {
         return (T) elementos[indice];
     }
